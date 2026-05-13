@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block extrahead %}
+{{ super() }}
+<script>
+function andesSetSection() {
+  var p = location.pathname.replace(/\/+$/, '').split('/');
+  var sections = ['kondor', 'shadowfox', 'andes-robotics', 'pumatronics'];
+  var section = 'andes-robotics';
+  for (var i = 0; i < p.length; i++) {
+    if (sections.indexOf(p[i]) !== -1) { section = p[i]; break; }
+  }
+  var cur = document.body.className.split(' ').filter(function(c) {
+    return sections.indexOf(c) === -1;
+  });
+  cur.push(section);
+  document.body.className = cur.join(' ').trim();
+}
+document.addEventListener('DOMContentLoaded', andesSetSection);
+document.addEventListener('DOMContentSwitch', andesSetSection);
+</script>
+{% endblock %}

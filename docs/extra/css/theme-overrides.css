@@ -1,0 +1,72 @@
+/* ── Andes Robotics (default) ── */
+:root,
+.andes-robotics,
+.andes-robotics[data-md-color-scheme="default"],
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: #3E163F;
+  --md-primary-fg-color--light: #531F55;
+  --md-primary-fg-color--dark: #2E0F2F;
+  --md-accent-fg-color: #0392F5;
+  --md-accent-fg-color--light: #5BB8FF;
+  --md-accent-fg-color--dark: #0270BD;
+  --md-default-bg-color: #EFF1FF;
+}
+.andes-robotics[data-md-color-scheme="slate"],
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #531F55;
+  --md-primary-fg-color--light: #7A2E7D;
+  --md-primary-fg-color--dark: #3E163F;
+  --md-accent-fg-color: #F4C911;
+  --md-accent-fg-color--light: #F7DB4D;
+  --md-accent-fg-color--dark: #C5A40E;
+  --md-default-bg-color: #1A0A1B;
+  --md-default-fg-color: #EFF1FF;
+}
+
+/* ── Kondor ── */
+.kondor [data-md-color-scheme="default"],
+.kondor[data-md-color-scheme="default"] {
+  --md-primary-fg-color: #0B1F3A;
+  --md-primary-fg-color--light: #142F52;
+  --md-primary-fg-color--dark: #08152A;
+  --md-accent-fg-color: #f9b150;
+  --md-accent-fg-color--light: #FBC878;
+  --md-accent-fg-color--dark: #D48D2E;
+  --md-default-bg-color: #F5F7FA;
+}
+.kondor [data-md-color-scheme="slate"],
+.kondor[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #0B1F3A;
+  --md-primary-fg-color--light: #142F52;
+  --md-primary-fg-color--dark: #08152A;
+  --md-accent-fg-color: #f9b150;
+  --md-accent-fg-color--light: #FBC878;
+  --md-accent-fg-color--dark: #D48D2E;
+  --md-default-bg-color: #0B1F3A;
+  --md-default-fg-color: #E0E6EF;
+}
+
+/* ── ShadowFox ── */
+.shadowfox [data-md-color-scheme="default"],
+.shadowfox[data-md-color-scheme="default"] {
+  --md-primary-fg-color: #532259;
+  --md-primary-fg-color--light: #7B3082;
+  --md-primary-fg-color--dark: #3B163F;
+  --md-accent-fg-color: #db8112;
+  --md-accent-fg-color--light: #F2A33A;
+  --md-accent-fg-color--dark: #B8680E;
+  --md-default-bg-color: #f3f2f3;
+  --md-typeset-a-color: #db8112;
+}
+.shadowfox [data-md-color-scheme="slate"],
+.shadowfox[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #3B163F;
+  --md-primary-fg-color--light: #532259;
+  --md-primary-fg-color--dark: #2A0F2D;
+  --md-accent-fg-color: #f2c22f;
+  --md-accent-fg-color--light: #F5D35E;
+  --md-accent-fg-color--dark: #C9A01E;
+  --md-default-bg-color: #1E0A1F;
+  --md-default-fg-color: #f3f2f3;
+  --md-typeset-a-color: #f2c22f;
+}
