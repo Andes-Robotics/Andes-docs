@@ -1,0 +1,31 @@
+site_name: Andes Docs
+site_url: https://andes-robotics.github.io/Andes-docs
+repo_url: https://github.com/Andes-Robotics/Andes-docs
+repo_name: Andes-Robotics/Andes-docs
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+markdown_extensions:
+  - pymdownx.snippets:
+      check_paths: true
+      url_download: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Andes-Robotics
+
+nav:
+  - Home: index.md
